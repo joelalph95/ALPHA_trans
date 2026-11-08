@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Bus body -->
+  <path d="M4 6h16a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1z"/>
+  <!-- Front window -->
+  <path d="M6 8h4v4H6z"/>
+  <!-- Side windows -->
+  <path d="M11 8h2v1h-2z"/>
+  <path d="M14 8h2v2h-2z"/>
+  <path d="M11 10h2v1h-2z"/>
+  <!-- Wheels -->
+  <circle cx="7" cy="16" r="1.5"/>
+  <circle cx="17" cy="16" r="1.5"/>
+  <!-- Roof rack -->
+  <path d="M5 5h14v1H5z"/>
+  <!-- Orange star accent -->
+  <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"/>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "cities": [
+    { "id": "TNR", "name": "Antananarivo", "lat": -18.9137, "lng": 47.5361 },
+    { "id": "TML", "name": "Toamasina", "lat": -18.1492, "lng": 49.4023 },
+    { "id": "MJN", "name": "Mahajanga", "lat": -15.7167, "lng": 46.3167 },
+    { "id": "DIE", "name": "Antsiranana", "lat": -12.3472, "lng": 49.2958 },
+    { "id": "FTU", "name": "Toliara", "lat": -23.3568, "lng": 43.6917 },
+    { "id": "FNI", "name": "Fianarantsoa", "lat": -21.4532, "lng": 47.0872 },
+    { "id": "AMB", "name": "Ambatondrazaka", "lat": -17.8347, "lng": 48.4119 },
+    { "id": "MOR", "name": "Morondava", "lat": -20.2955, "lng": 44.2795 },
+    { "id": "SMP", "name": "Sambava", "lat": -14.2667, "lng": 50.1667 },
+    { "id": "IHO", "name": "Ihosy", "lat": -22.4033, "lng": 46.1239 }
+  ],
+  "routes": [
+    { "from": "TNR", "to": "TML", "distance": 357, "time": 7, "fuel": 35, "status": "open", "trafficFactor": 1.2 },
+    { "from": "TNR", "to": "MJN", "distance": 572, "time": 11, "fuel": 55, "status": "open", "trafficFactor": 1.1 },
+    { "from": "TNR", "to": "FNI", "distance": 407, "time": 8, "fuel": 40, "status": "open", "trafficFactor": 1.3 },
+    { "from": "TNR", "to": "AMB", "distance": 298, "time": 6, "fuel": 30, "status": "open", "trafficFactor": 1.0 },
+    { "from": "TML", "to": "AMB", "distance": 180, "time": 4, "fuel": 18, "status": "open", "trafficFactor": 1.0 },
+    { "from": "TML", "to": "SMP", "distance": 520, "time": 10, "fuel": 50, "status": "open", "trafficFactor": 1.1 },
+    { "from": "MJN", "to": "DIE", "distance": 692, "time": 14, "fuel": 68, "status": "open", "trafficFactor": 1.0 },
+    { "from": "MJN", "to": "MOR", "distance": 480, "time": 10, "fuel": 47, "status": "open", "trafficFactor": 1.2 },
+    { "from": "FNI", "to": "FTU", "distance": 462, "time": 9, "fuel": 45, "status": "open", "trafficFactor": 1.1 },
+    { "from": "FNI", "to": "IHO", "distance": 200, "time": 4, "fuel": 20, "status": "open", "trafficFactor": 1.0 },
+    { "from": "IHO", "to": "FTU", "distance": 310, "time": 6, "fuel": 30, "status": "open", "trafficFactor": 1.1 },
+    { "from": "MOR", "to": "FTU", "distance": 390, "time": 8, "fuel": 38, "status": "open", "trafficFactor": 1.0 },
+    { "from": "AMB", "to": "SMP", "distance": 380, "time": 8, "fuel": 37, "status": "open", "trafficFactor": 1.0 },
+    { "from": "DIE", "to": "SMP", "distance": 280, "time": 6, "fuel": 27, "status": "open", "trafficFactor": 1.0 },
+    { "from": "TNR", "to": "MOR", "distance": 620, "time": 12, "fuel": 60, "status": "open", "trafficFactor": 1.0 }
+  ]
+}

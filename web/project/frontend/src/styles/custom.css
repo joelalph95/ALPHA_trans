@@ -1,0 +1,24 @@
+/* Styles personnalisés pour SmartTransport 2035 */
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+.table th {
+  background-color: #e9ecef;
+}
+
+.btn {
+  border-radius: 0.25rem;
+}
+
+.alert {
+  border-radius: 0.25rem;
+}

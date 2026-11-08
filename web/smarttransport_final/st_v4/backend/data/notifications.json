@@ -1,0 +1,169 @@
+{
+  "notifications": [
+    {
+      "id": "NMNJR2FSYJG",
+      "dest_id": "4",
+      "dest_role": "passenger",
+      "type": "reservation_envoyee",
+      "titre": "📨 Réservation envoyée",
+      "message": "Votre réservation RES-MNJR2FRW sur Toyota HiAce (4444 TBE) — Antananarivo → Toamasina le 30/04/2026 a bien été reçue. En attente de confirmation du chauffeur.",
+      "reservation_id": "RMNJR2FRWVY",
+      "lue": true,
+      "created_at": "2026-04-04T03:05:24.610Z"
+    },
+    {
+      "id": "NMNJX06640Z",
+      "dest_id": "4",
+      "dest_role": "passenger",
+      "type": "reservation_envoyee",
+      "titre": "📨 Réservation envoyée",
+      "message": "Votre réservation RES-MNJX064W sur MERCEDES SPRINTER (456 TBE) — ANTANANARIVO -TOAMASINA → Toliara le 24/04/2026 a bien été reçue. En attente de confirmation du chauffeur.",
+      "reservation_id": "RMNJX064W7Q",
+      "lue": true,
+      "created_at": "2026-04-04T05:51:36.508Z"
+    },
+    {
+      "id": "NMNJX0DEP8J",
+      "dest_id": "4",
+      "dest_role": "passenger",
+      "type": "reservation_annulee",
+      "titre": "🚫 Réservation annulée",
+      "message": "La réservation RES-MNJR2FRW — Antananarivo → Toamasina a été annulée.",
+      "reservation_id": "RMNJR2FRWVY",
+      "lue": true,
+      "created_at": "2026-04-04T05:51:45.889Z"
+    },
+    {
+      "id": "NMNJX0G58YR",
+      "dest_id": "4",
+      "dest_role": "passenger",
+      "type": "reservation_annulee",
+      "titre": "🚫 Réservation annulée",
+      "message": "La réservation RES-MNJX064W — ANTANANARIVO -TOAMASINA → Toliara a été annulée.",
+      "reservation_id": "RMNJX064W7Q",
+      "lue": true,
+      "created_at": "2026-04-04T05:51:49.436Z"
+    },
+    {
+      "id": "NMNO5DHXNH3",
+      "dest_id": "4",
+      "dest_role": "passenger",
+      "type": "reservation_envoyee",
+      "titre": "📨 Réservation envoyée",
+      "message": "Votre réservation RES-MNO5DHWN sur MERCEDES SPRINTER (456 TBE) — ANTANANARIVO -TOAMASINA → Toamasina le 16/04/2026 a bien été reçue. En attente de confirmation du chauffeur.",
+      "reservation_id": "RMNO5DHWNXF",
+      "lue": true,
+      "created_at": "2026-04-07T04:56:59.915Z"
+    },
+    {
+      "id": "NMNO6XI1ZC9",
+      "dest_id": "4",
+      "dest_role": "driver",
+      "type": "nouvelle_reservation",
+      "titre": "🔔 Nouvelle demande de place",
+      "message": "Ramandimbison demande 2 place(s) sur 777 JOEL — ANTANANARIVO-TOAMASINA → ;l; le 07/05/2026. Tarif : 53 000 Ar.",
+      "reservation_id": "RMNO6XI15DF",
+      "lue": true,
+      "created_at": "2026-04-07T05:40:32.807Z"
+    },
+    {
+      "id": "NMNO6XI21WR",
+      "dest_id": "4",
+      "dest_role": "passenger",
+      "type": "reservation_envoyee",
+      "titre": "📨 Réservation envoyée",
+      "message": "Votre réservation RES-MNO6XI15 sur TOYOTA HIACE (777 JOEL) — ANTANANARIVO-TOAMASINA → ;l; le 07/05/2026 a bien été reçue. En attente de confirmation du chauffeur.",
+      "reservation_id": "RMNO6XI15DF",
+      "lue": true,
+      "created_at": "2026-04-07T05:40:32.809Z"
+    },
+    {
+      "id": "NMNO8YPX6OK",
+      "dest_id": "4",
+      "dest_role": "passenger",
+      "type": "reservation_annulee",
+      "titre": "🚫 Réservation annulée",
+      "message": "La réservation RES-MNO6XI15 — ANTANANARIVO-TOAMASINA → ;l; a été annulée.",
+      "reservation_id": "RMNO6XI15DF",
+      "lue": true,
+      "created_at": "2026-04-07T06:37:28.890Z"
+    },
+    {
+      "id": "NMNO8YPX7YO",
+      "dest_id": "4",
+      "dest_role": "driver",
+      "type": "reservation_annulee",
+      "titre": "🚫 Annulation",
+      "message": "Ramandimbison a annulé sa réservation RES-MNO6XI15 (ANTANANARIVO-TOAMASINA → ;l; du 07/05/2026).",
+      "reservation_id": "RMNO6XI15DF",
+      "lue": true,
+      "created_at": "2026-04-07T06:37:28.891Z"
+    },
+    {
+      "id": "NMNO8YTC0TP",
+      "dest_id": "4",
+      "dest_role": "passenger",
+      "type": "reservation_annulee",
+      "titre": "🚫 Réservation annulée",
+      "message": "La réservation RES-MNO5DHWN — ANTANANARIVO -TOAMASINA → Toamasina a été annulée.",
+      "reservation_id": "RMNO5DHWNXF",
+      "lue": true,
+      "created_at": "2026-04-07T06:37:33.312Z"
+    },
+    {
+      "id": "NMNO8YTC1CS",
+      "dest_id": "1",
+      "dest_role": "driver",
+      "type": "reservation_annulee",
+      "titre": "🚫 Annulation",
+      "message": "Ramandimbison a annulé sa réservation RES-MNO5DHWN (ANTANANARIVO -TOAMASINA → Toamasina du 16/04/2026).",
+      "reservation_id": "RMNO5DHWNXF",
+      "lue": true,
+      "created_at": "2026-04-07T06:37:33.313Z"
+    },
+    {
+      "id": "NMNPGVSU1VX",
+      "dest_id": "1",
+      "dest_role": "driver",
+      "type": "nouvelle_reservation",
+      "titre": "🔔 Nouvelle demande de place",
+      "message": "Ramandimbison demande 2 place(s) sur 456 TBE — ANTANANARIVO -TOAMASINA → uu le 30/04/2026. Tarif : 43 000 Ar.",
+      "reservation_id": "RMNPGVSS5WO",
+      "lue": true,
+      "created_at": "2026-04-08T03:06:55.801Z"
+    },
+    {
+      "id": "NMNPGVSU3MB",
+      "dest_id": "4",
+      "dest_role": "passenger",
+      "type": "reservation_envoyee",
+      "titre": "📨 Réservation envoyée",
+      "message": "Votre réservation RES-MNPGVSS5 sur MERCEDES SPRINTER (456 TBE) — ANTANANARIVO -TOAMASINA → uu le 30/04/2026 a bien été reçue. En attente de confirmation du chauffeur.",
+      "reservation_id": "RMNPGVSS5WO",
+      "lue": true,
+      "created_at": "2026-04-08T03:06:55.803Z"
+    },
+    {
+      "id": "NMOJ7CLIA8K",
+      "dest_id": "1",
+      "dest_role": "driver",
+      "type": "nouvelle_reservation",
+      "titre": "🔔 Nouvelle demande de place",
+      "message": "tendry demande 3 place(s) sur 456 TBE — tana → fianara le 30/04/2026. Tarif : 63 000 Ar.",
+      "reservation_id": "RMOJ7CLHCH5",
+      "lue": true,
+      "created_at": "2026-04-28T22:33:08.578Z"
+    },
+    {
+      "id": "NMOJ7CLIBSM",
+      "dest_id": "33",
+      "dest_role": "passenger",
+      "type": "reservation_envoyee",
+      "titre": "📨 Réservation envoyée",
+      "message": "Votre réservation RES-MOJ7CLHC sur MERCEDES SPRINTER (456 TBE) — tana → fianara le 30/04/2026 a bien été reçue. En attente de confirmation du chauffeur.",
+      "reservation_id": "RMOJ7CLHCH5",
+      "lue": false,
+      "created_at": "2026-04-28T22:33:08.579Z"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+/* App.css (global / non destructif)
+   But: fournir un layout léger et une base visuelle cohérente
+   sans casser Bootstrap ni styles/custom.css.
+*/
+
+:root {
+  --app-bg: #f6f8fc;
+  --app-text: #1f2937;
+  --app-muted: #6b7280;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--app-bg);
+  color: var(--app-text);
+}
+
+/* Optionnel: rendre l'affichage plus homogène */
+* {
+  box-sizing: border-box;
+}
+
+/* Conteneur principal (Bootstrap container reste le plus important) */
+.app-shell {
+  min-height: 100vh;
+}
+
+/* Zone de contenu */
+.app-content {
+  padding-top: 1rem;
+}
+
+/* Petite amélioration pour les textes */
+p,
+label {
+  color: inherit;
+}
+
+/* Navigation / carte légère (si utilisé ailleurs) */
+.card,
+.navbar,
+.form-control {
+  border-radius: 12px;
+}
+

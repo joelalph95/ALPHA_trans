@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "SmartTransport",
+    "slug": "smart-transport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1B4332"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smarttransport.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "SmartTransport utilise votre position pour afficher votre trajet en temps réel.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "SmartTransport utilise votre position pour suivre votre trajet."
+      }
+    },
+    "android": {
+      "package": "com.smarttransport.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "SmartTransport a besoin de votre position pour le suivi de trajet."
+        }
+      ],
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
